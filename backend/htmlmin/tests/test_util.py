@@ -8,7 +8,7 @@ from __future__ import unicode_literals
 
 import unittest
 
-from htmlmin.util import between_two_tags, force_text
+from backend.htmlmin.util import between_two_tags, force_text
 
 
 class TestUtil(unittest.TestCase):

@@ -4,7 +4,7 @@
 
 from functools import wraps
 
-from htmlmin.minify import html_minify
+from backend.htmlmin.minify import html_minify
 
 
 def minified_response(f):

@@ -12,7 +12,7 @@ from os.path import abspath, dirname, join
 
 import six
 
-from htmlmin.minify import html_minify
+from backend.htmlmin.minify import html_minify
 
 
 try:
