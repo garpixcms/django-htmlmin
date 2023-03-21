@@ -6,7 +6,7 @@ import re
 
 from django.conf import settings
 
-from backend.htmlmin.minify import html_minify
+from htmlmin.minify import html_minify
 
 
 class MarkRequestMiddleware(object):

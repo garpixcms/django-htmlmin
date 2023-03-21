@@ -7,7 +7,7 @@ import os
 
 import six
 
-from backend.htmlmin.minify import html_minify
+from htmlmin.minify import html_minify
 
 my_dir = os.getcwd()
 

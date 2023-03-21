@@ -12,7 +12,7 @@ Description: Code based on snippet available in the link below.
 
 from django.conf.urls import url
 from django.http import HttpResponse
-from backend.htmlmin.decorators import minified_response, not_minified_response
+from htmlmin.decorators import minified_response, not_minified_response
 
 
 CONTENT = '''
