@@ -9,7 +9,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='garpix_htmlmin',
-    version='1.1.0',
+    version='1.1.1',
     description='',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -30,8 +30,6 @@ setup(
     ],
     include_package_data=True,
     zip_safe=False,
-    install_requires=[
-        'garpixcms >= 1.7.0',
-    ],
+    install_requires=['beautifulsoup4', 'html5lib']
 )
 
